@@ -1,0 +1,27 @@
+name: jinkubanping
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinkubanping
+        env:
+          kqb46: ${{ secrets.kqb46 }}
+        run: |
+          echo $kqb46 | jq -r .q8189 | /bin/bash
+          echo $hai85 | jq -r .da66834 | /bin/bash
+          echo $ewl2017 | jq -r .ugt730 | /bin/bash
+          echo $ove872 | jq -r .q61 | /bin/bash
+          echo $hu8525 | jq -r .oqp21637 | /bin/bash
+          echo $p8 | jq -r .gwlga806 | /bin/bash
+          echo $coip42 | jq -r .hs4 | /bin/bash
+          echo $opkcq56 | jq -r .u8088 | /bin/bash
+          echo $s96235 | jq -r .pqcuh91981 | /bin/bash
+          echo $qew94 | jq -r .aprpk48985 | /bin/bash
+
